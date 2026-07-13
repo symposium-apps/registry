@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "registry_kind": "sym_app_registry",
+  "generated_at": "2026-07-13T15:14:00.845Z",
+  "organization": "symposium-apps",
+  "source": "https://github.com/symposium-apps",
+  "update_policy": "automatic",
+  "categories": [
+    {
+      "id": "marketing",
+      "name": "Marketing",
+      "swatch": "#5b78ff"
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "swatch": "#5fd49a"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "swatch": "#b3a4f0"
+    },
+    {
+      "id": "support",
+      "name": "Support",
+      "swatch": "#e0a36b"
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "swatch": "#6fd6e0"
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "swatch": "#ff647c"
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "swatch": "#d6c478"
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "swatch": "#6fd6e0"
+    }
+  ],
+  "apps": [
+    {
+      "id": "cosmise-streamboards",
+      "name": "Cosmise Streamboards",
+      "subtitle": "Agent-built reports, visible as they happen",
+      "description": "Watch an agent build, verify, and present organisation-scoped Streamboards reports.",
+      "category": "analytics",
+      "publisher": {
+        "name": "Samos Labs",
+        "organization": "symposium-apps"
+      },
+      "listing": {
+        "status": "published",
+        "visibility": "public",
+        "featured": false,
+        "staff_pick": false,
+        "is_new": true
+      },
+      "release": {
+        "version": "0.1.0",
+        "channel": "stable",
+        "git_ref": "main",
+        "commit": "d4db16aa5d80427c941a02ffff7278996fa0a862",
+        "published_at": "2026-07-13T15:13:40Z",
+        "update_policy": "automatic"
+      },
+      "source": {
+        "repository_url": "https://github.com/symposium-apps/cosmise-streamboards",
+        "clone_url": "https://github.com/symposium-apps/cosmise-streamboards.git",
+        "organization": "symposium-apps",
+        "default_branch": "main",
+        "manifest_path": "sym-app.json"
+      },
+      "runtime": {
+        "type": "node",
+        "start": "npm start",
+        "build": null,
+        "install": "npm ci",
+        "health_path": "/_sym/health",
+        "required_secrets": []
+      },
+      "media": {
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/d4db16aa5d80427c941a02ffff7278996fa0a862/assets/icon.svg",
+        "screenshots": [],
+        "accent_color": "#175D4C"
+      },
+      "install": {
+        "mode": "git_clone",
+        "repository_url": "https://github.com/symposium-apps/cosmise-streamboards.git",
+        "ref": "main",
+        "target_root": "project_files/Apps",
+        "folder_name": "cosmise-streamboards",
+        "profile_scoped": true,
+        "automatic_updates": true
+      },
+      "permissions": [
+        {
+          "id": "network.external",
+          "reason": "Render approved Cosmise Streamboard URLs supplied by the agent."
+        }
+      ],
+      "integrations": [
+        {
+          "id": "cosmise-streamboards",
+          "required": false,
+          "reason": "Manage Streamboards for the organisation assigned to this profile."
+        }
+      ],
+      "support": {
+        "docs_url": "https://github.com/symposium-apps/cosmise-streamboards#readme",
+        "issues_url": "https://github.com/symposium-apps/cosmise-streamboards/issues"
+      }
+    }
+  ]
+}

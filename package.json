@@ -1,0 +1,10 @@
+{
+  "name": "@symposium-apps/registry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-registry.mjs",
+    "check": "node scripts/check-registry.mjs"
+  }
+}

@@ -1,0 +1,42 @@
+name: Generate app registry
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - ".github/workflows/generate-registry.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-app-registry
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm run check
+      - name: Publish changed registry
+        run: |
+          if git diff --quiet -- apps.json; then
+            exit 0
+          fi
+          git config user.name "symposium-apps-registry[bot]"
+          git config user.email "symposium-apps-registry[bot]@users.noreply.github.com"
+          git add apps.json
+          git commit -m "Update app registry"
+          git push
