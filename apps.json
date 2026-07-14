@@ -69,8 +69,8 @@
         "version": "0.1.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "d4db16aa5d80427c941a02ffff7278996fa0a862",
-        "published_at": "2026-07-13T15:13:40Z",
+        "commit": "376af6352ffdf94726781d85fa17d6018f260ec7",
+        "published_at": "2026-07-14T13:35:28Z",
         "update_policy": "automatic"
       },
       "source": {
