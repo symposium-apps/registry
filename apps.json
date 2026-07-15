@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-15T04:39:19.634Z",
+  "generated_at": "2026-07-15T06:33:24.703Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -121,10 +121,10 @@
       }
     },
     {
-      "id": "player-python",
-      "name": "Player",
-      "subtitle": "Local music, streamed to any browser on your network",
-      "description": "Music player with an app-scoped library, playlists, browser controls, and optional hardware output.",
+      "id": "jukebox",
+      "name": "Jukebox",
+      "subtitle": "Your music library, streamed privately in each browser",
+      "description": "A shared VPS-hosted music library with private playback state in every browser.",
       "category": "content",
       "publisher": {
         "name": "Samos Labs",
@@ -138,16 +138,16 @@
         "is_new": true
       },
       "release": {
-        "version": "0.1.2",
+        "version": "1.0.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "7e01ce973b796bbfbb2bdfd13196dbbed2f246e7",
-        "published_at": "2026-07-15T04:39:08Z",
+        "commit": "bb7ac92740ca92c348b392424512809e61391e95",
+        "published_at": "2026-07-15T06:33:02Z",
         "update_policy": "automatic"
       },
       "source": {
-        "repository_url": "https://github.com/symposium-apps/player-python",
-        "clone_url": "https://github.com/symposium-apps/player-python.git",
+        "repository_url": "https://github.com/symposium-apps/jukebox",
+        "clone_url": "https://github.com/symposium-apps/jukebox.git",
         "organization": "symposium-apps",
         "default_branch": "main",
         "manifest_path": "sym-app.json"
@@ -156,34 +156,29 @@
         "type": "python",
         "start": "npm start",
         "build": null,
-        "install": null,
+        "install": "npm ci",
         "health_path": "/_sym/health",
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/7e01ce973b796bbfbb2bdfd13196dbbed2f246e7/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/bb7ac92740ca92c348b392424512809e61391e95/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
       "install": {
         "mode": "git_clone",
-        "repository_url": "https://github.com/symposium-apps/player-python.git",
+        "repository_url": "https://github.com/symposium-apps/jukebox.git",
         "ref": "main",
         "target_root": "project_files/Apps",
-        "folder_name": "player-python",
+        "folder_name": "jukebox",
         "profile_scoped": true,
         "automatic_updates": true
       },
-      "permissions": [
-        {
-          "id": "network.local",
-          "reason": "Serve the control panel and stream local audio to browsers on the local network."
-        }
-      ],
+      "permissions": [],
       "integrations": [],
       "support": {
-        "docs_url": "https://github.com/symposium-apps/player-python#readme",
-        "issues_url": "https://github.com/symposium-apps/player-python/issues"
+        "docs_url": "https://github.com/symposium-apps/jukebox#readme",
+        "issues_url": "https://github.com/symposium-apps/jukebox/issues"
       }
     }
   ]
