@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-15T00:40:56.276Z",
+  "generated_at": "2026-07-15T04:26:18.724Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -124,7 +124,7 @@
       "id": "player-python",
       "name": "Player",
       "subtitle": "Local music, streamed to any browser on your network",
-      "description": "Raspberry Pi hosted MP3 player with a WiFi control panel, local music library, playlists, and OLED/LCD status.",
+      "description": "Music player with an app-scoped library, playlists, browser controls, and optional hardware output.",
       "category": "content",
       "publisher": {
         "name": "Samos Labs",
@@ -138,11 +138,11 @@
         "is_new": true
       },
       "release": {
-        "version": "0.1.0",
+        "version": "0.1.1",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "d76195923b1b0bce867e9773f8c1eca13e62eb96",
-        "published_at": "2026-07-15T00:40:37Z",
+        "commit": "8d13e707009aa77de9f2d91ee4d375c287476835",
+        "published_at": "2026-07-15T04:26:01Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -161,7 +161,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/d76195923b1b0bce867e9773f8c1eca13e62eb96/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/8d13e707009aa77de9f2d91ee4d375c287476835/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
