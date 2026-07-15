@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-15T00:24:50.041Z",
+  "generated_at": "2026-07-15T00:40:56.276Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -141,8 +141,8 @@
         "version": "0.1.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "b98ef53390e72b00a2570243800d2db34544156b",
-        "published_at": "2026-07-15T00:24:17Z",
+        "commit": "d76195923b1b0bce867e9773f8c1eca13e62eb96",
+        "published_at": "2026-07-15T00:40:37Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -154,14 +154,14 @@
       },
       "runtime": {
         "type": "python",
-        "start": null,
+        "start": "npm start",
         "build": null,
         "install": null,
         "health_path": "/_sym/health",
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/b98ef53390e72b00a2570243800d2db34544156b/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/d76195923b1b0bce867e9773f8c1eca13e62eb96/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
