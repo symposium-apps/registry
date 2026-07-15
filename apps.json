@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-14T20:06:08.227Z",
+  "generated_at": "2026-07-15T00:24:50.041Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -118,6 +118,72 @@
       "support": {
         "docs_url": "https://github.com/symposium-apps/cosmise-streamboards#readme",
         "issues_url": "https://github.com/symposium-apps/cosmise-streamboards/issues"
+      }
+    },
+    {
+      "id": "player-python",
+      "name": "Player",
+      "subtitle": "Local music, streamed to any browser on your network",
+      "description": "Raspberry Pi hosted MP3 player with a WiFi control panel, local music library, playlists, and OLED/LCD status.",
+      "category": "content",
+      "publisher": {
+        "name": "Samos Labs",
+        "organization": "symposium-apps"
+      },
+      "listing": {
+        "status": "published",
+        "visibility": "public",
+        "featured": false,
+        "staff_pick": false,
+        "is_new": true
+      },
+      "release": {
+        "version": "0.1.0",
+        "channel": "stable",
+        "git_ref": "main",
+        "commit": "b98ef53390e72b00a2570243800d2db34544156b",
+        "published_at": "2026-07-15T00:24:17Z",
+        "update_policy": "automatic"
+      },
+      "source": {
+        "repository_url": "https://github.com/symposium-apps/player-python",
+        "clone_url": "https://github.com/symposium-apps/player-python.git",
+        "organization": "symposium-apps",
+        "default_branch": "main",
+        "manifest_path": "sym-app.json"
+      },
+      "runtime": {
+        "type": "python",
+        "start": null,
+        "build": null,
+        "install": null,
+        "health_path": "/_sym/health",
+        "required_secrets": []
+      },
+      "media": {
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/player-python/b98ef53390e72b00a2570243800d2db34544156b/assets/icon.svg",
+        "screenshots": [],
+        "accent_color": "#7c3aed"
+      },
+      "install": {
+        "mode": "git_clone",
+        "repository_url": "https://github.com/symposium-apps/player-python.git",
+        "ref": "main",
+        "target_root": "project_files/Apps",
+        "folder_name": "player-python",
+        "profile_scoped": true,
+        "automatic_updates": true
+      },
+      "permissions": [
+        {
+          "id": "network.local",
+          "reason": "Serve the control panel and stream local audio to browsers on the local network."
+        }
+      ],
+      "integrations": [],
+      "support": {
+        "docs_url": "https://github.com/symposium-apps/player-python#readme",
+        "issues_url": "https://github.com/symposium-apps/player-python/issues"
       }
     }
   ]
