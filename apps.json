@@ -69,8 +69,8 @@
         "version": "0.2.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "737ec859739c74dde9acf30e50d9884f92773bfb",
-        "published_at": "2026-07-16T03:33:38Z",
+        "commit": "16867d280f824bbdc5d6d73d7521099f8edc249a",
+        "published_at": "2026-07-16T03:35:41Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -89,7 +89,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/737ec859739c74dde9acf30e50d9884f92773bfb/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/16867d280f824bbdc5d6d73d7521099f8edc249a/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
@@ -105,7 +105,7 @@
       "permissions": [
         {
           "id": "network.external",
-          "reason": "Render approved Cosmise Streamboard URLs supplied by the agent."
+          "reason": "Call the profile-scoped Cosmise MCP from the backend and render canonical public Streamboard URLs."
         }
       ],
       "integrations": [
