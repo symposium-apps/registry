@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-15T16:43:44.602Z",
+  "generated_at": "2026-07-16T02:22:01.447Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -69,8 +69,8 @@
         "version": "0.1.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "46c130b58e42e11c6df4e8374787cf913f76eac3",
-        "published_at": "2026-07-15T15:13:47Z",
+        "commit": "674fc0e2ddd2fde3527b8d7c0473d694dfc93afd",
+        "published_at": "2026-07-16T02:21:06Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -89,7 +89,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/46c130b58e42e11c6df4e8374787cf913f76eac3/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/674fc0e2ddd2fde3527b8d7c0473d694dfc93afd/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
@@ -110,9 +110,9 @@
       ],
       "integrations": [
         {
-          "id": "cosmise-streamboards",
+          "id": "cosmise",
           "required": false,
-          "reason": "Manage Streamboards for the organisation assigned to this profile."
+          "reason": "Connect the profile-scoped production Cosmise MCP used to read organisation data and manage real Streamboards. If absent, the coding agent must run the documented missing-credential workflow."
         }
       ],
       "support": {
