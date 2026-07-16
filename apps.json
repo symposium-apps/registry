@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "0.2.0",
+        "version": "0.2.1",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "16867d280f824bbdc5d6d73d7521099f8edc249a",
-        "published_at": "2026-07-16T03:35:41Z",
+        "commit": "1e5d274a10bc0c737ccabe52e208e2c01475e663",
+        "published_at": "2026-07-16T04:05:12Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -89,7 +89,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/16867d280f824bbdc5d6d73d7521099f8edc249a/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/1e5d274a10bc0c737ccabe52e208e2c01475e663/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
