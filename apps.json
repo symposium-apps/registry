@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-16T02:27:48.105Z",
+  "generated_at": "2026-07-16T06:03:54.602Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -69,8 +69,8 @@
         "version": "0.2.1",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "b59640f113c049e8bc22ac7073fc07ccb8574510",
-        "published_at": "2026-07-16T04:15:33Z",
+        "commit": "d3cdebbfc33611c5d00530a466915c164d0b5111",
+        "published_at": "2026-07-16T05:31:34Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -86,10 +86,12 @@
         "build": null,
         "install": "npm ci",
         "health_path": "/_sym/health",
-        "required_secrets": []
+        "required_secrets": [
+          "COSMISE_MCP_TOKEN"
+        ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/b59640f113c049e8bc22ac7073fc07ccb8574510/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/d3cdebbfc33611c5d00530a466915c164d0b5111/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
@@ -112,7 +114,7 @@
         {
           "id": "cosmise",
           "required": true,
-          "reason": "Supply the organization-scoped credential to the private app backend so its single wrapped MCP can synchronize reports and instrument every Streamboards tool call."
+          "reason": "Give this trusted backend organisation-scoped read/write Cosmise MCP access without exposing the credential to browser code."
         }
       ],
       "support": {
