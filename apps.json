@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "0.1.0",
+        "version": "0.2.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "2c975a613cac207115448f351ccd5fbccc6c4435",
-        "published_at": "2026-07-16T02:27:27Z",
+        "commit": "737ec859739c74dde9acf30e50d9884f92773bfb",
+        "published_at": "2026-07-16T03:33:38Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -89,7 +89,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/2c975a613cac207115448f351ccd5fbccc6c4435/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/737ec859739c74dde9acf30e50d9884f92773bfb/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
@@ -111,8 +111,8 @@
       "integrations": [
         {
           "id": "cosmise",
-          "required": false,
-          "reason": "Connect the profile-scoped production Cosmise MCP used to read organisation data and manage real Streamboards. If absent, the coding agent must run the documented missing-credential workflow."
+          "required": true,
+          "reason": "Supply the organization-scoped credential to the private app backend so its single wrapped MCP can synchronize reports and instrument every Streamboards tool call."
         }
       ],
       "support": {
