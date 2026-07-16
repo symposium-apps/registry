@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "0.3.3",
+        "version": "0.3.4",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "1621faab399ff47a39d6972e53cb4cb172581806",
-        "published_at": "2026-07-16T14:34:47Z",
+        "commit": "44833de5f5267b647a66df14b0fc62d480ab639b",
+        "published_at": "2026-07-16T14:40:51Z",
         "update_policy": "automatic"
       },
       "source": {
