@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-19T16:52:19.340Z",
+  "generated_at": "2026-07-19T17:10:13Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "0.3.6",
+        "version": "0.3.7",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "634974b1c38541b554e6e3e074657fcaace95460",
-        "published_at": "2026-07-18T15:07:42Z",
+        "commit": "7aa3506cb77334fcec4dc910085181e4976e310c",
+        "published_at": "2026-07-19T17:10:13Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -91,7 +91,7 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/634974b1c38541b554e6e3e074657fcaace95460/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-streamboards/7aa3506cb77334fcec4dc910085181e4976e310c/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#175D4C"
       },
@@ -140,11 +140,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.1.3",
+        "version": "1.1.4",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "00f99c5db3be35f39cb7cfeb9539ad78edf0b38c",
-        "published_at": "2026-07-19T16:51:55Z",
+        "commit": "73fcc7319f2d8a90d45b3f08178c8e26e7b8f992",
+        "published_at": "2026-07-19T17:10:13Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -163,7 +163,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/00f99c5db3be35f39cb7cfeb9539ad78edf0b38c/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/73fcc7319f2d8a90d45b3f08178c8e26e7b8f992/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
