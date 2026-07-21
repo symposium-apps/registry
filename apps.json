@@ -140,11 +140,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.1.29",
+        "version": "1.1.30",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "7460ef38fa85402ea258696adff04f5f1c793a02",
-        "published_at": "2026-07-21T05:10:18Z",
+        "commit": "199af0fa03283188e6bcea23cc38ea7f9c6ed406",
+        "published_at": "2026-07-21T05:22:18Z",
         "update_policy": "automatic"
       },
       "source": {
