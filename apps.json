@@ -143,8 +143,8 @@
         "version": "1.1.26",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "e74b8183ca256b5808bf4f2b910b715093dbf6a5",
-        "published_at": "2026-07-21T04:10:53Z",
+        "commit": "c8dbf8840a8cbdc02d1ad080e7b1bad69342f282",
+        "published_at": "2026-07-21T04:12:39Z",
         "update_policy": "automatic"
       },
       "source": {
