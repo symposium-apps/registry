@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-27T18:29:30.582Z",
+  "generated_at": "2026-07-27T19:06:17.226Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -50,9 +50,9 @@
   "apps": [
     {
       "id": "cosmise-campaigns",
-      "name": "Cosmise Campaign Reports",
-      "subtitle": "Campaign Reports",
-      "description": "Ask campaign questions and receive verified read-only Markdown reports.",
+      "name": "Cosmise Campaigns",
+      "subtitle": "Agent-built campaign reports",
+      "description": "A read-only campaign evidence and report workspace operated by your Symposium Agent.",
       "category": "analytics",
       "publisher": {
         "name": "Samos Labs",
@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.0.4",
+        "version": "1.1.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "9377fa63b488416cbd973b8439f97cd930c29b5d",
-        "published_at": "2026-07-27T18:29:06Z",
+        "commit": "067455a2370d231052de249e4afab58e5d23183f",
+        "published_at": "2026-07-27T19:03:29Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -91,10 +91,10 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/9377fa63b488416cbd973b8439f97cd930c29b5d/assets/icon.png",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/067455a2370d231052de249e4afab58e5d23183f/assets/icon.png",
         "screenshots": [
-          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/9377fa63b488416cbd973b8439f97cd930c29b5d/assets/screenshots/report-build.png",
-          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/9377fa63b488416cbd973b8439f97cd930c29b5d/assets/screenshots/report-ready.png"
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/067455a2370d231052de249e4afab58e5d23183f/assets/screenshots/report-build.png",
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/067455a2370d231052de249e4afab58e5d23183f/assets/screenshots/report-ready.png"
         ],
         "accent_color": "#3D45D8"
       },
