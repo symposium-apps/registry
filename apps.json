@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-27T07:19:39.110Z",
+  "generated_at": "2026-07-27T07:51:51.544Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -66,11 +66,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "ab56729ee6a9c5aea91b787e2305ccd130f37eb0",
-        "published_at": "2026-07-27T07:18:36Z",
+        "commit": "b9a180b45ac6096878c8ef9ff792727f91d89528",
+        "published_at": "2026-07-27T07:51:33Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -91,10 +91,10 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/icon.png",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/b9a180b45ac6096878c8ef9ff792727f91d89528/assets/icon.png",
         "screenshots": [
-          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/screenshots/report-build.png",
-          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/screenshots/report-ready.png"
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/b9a180b45ac6096878c8ef9ff792727f91d89528/assets/screenshots/report-build.png",
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/b9a180b45ac6096878c8ef9ff792727f91d89528/assets/screenshots/report-ready.png"
         ],
         "accent_color": "#3D45D8"
       },
