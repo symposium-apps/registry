@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-07-21T07:10:56.938Z",
+  "generated_at": "2026-07-27T07:19:39.110Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -48,6 +48,83 @@
     }
   ],
   "apps": [
+    {
+      "id": "cosmise-campaigns",
+      "name": "Cosmise Campaign Reports",
+      "subtitle": "Campaign Reports",
+      "description": "Ask campaign questions and receive verified read-only Markdown reports.",
+      "category": "analytics",
+      "publisher": {
+        "name": "Samos Labs",
+        "organization": "symposium-apps"
+      },
+      "listing": {
+        "status": "published",
+        "visibility": "public",
+        "featured": false,
+        "staff_pick": false,
+        "is_new": true
+      },
+      "release": {
+        "version": "1.0.0",
+        "channel": "stable",
+        "git_ref": "main",
+        "commit": "ab56729ee6a9c5aea91b787e2305ccd130f37eb0",
+        "published_at": "2026-07-27T07:18:36Z",
+        "update_policy": "automatic"
+      },
+      "source": {
+        "repository_url": "https://github.com/symposium-apps/cosmise-campaigns",
+        "clone_url": "https://github.com/symposium-apps/cosmise-campaigns.git",
+        "organization": "symposium-apps",
+        "default_branch": "main",
+        "manifest_path": "sym-app.json"
+      },
+      "runtime": {
+        "type": "node",
+        "start": "npm start",
+        "build": null,
+        "install": "npm ci",
+        "health_path": "/_sym/health",
+        "required_secrets": [
+          "COSMISE_MCP_TOKEN"
+        ]
+      },
+      "media": {
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/icon.png",
+        "screenshots": [
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/screenshots/report-build.png",
+          "https://raw.githubusercontent.com/symposium-apps/cosmise-campaigns/ab56729ee6a9c5aea91b787e2305ccd130f37eb0/assets/screenshots/report-ready.png"
+        ],
+        "accent_color": "#3D45D8"
+      },
+      "install": {
+        "mode": "git_clone",
+        "repository_url": "https://github.com/symposium-apps/cosmise-campaigns.git",
+        "ref": "main",
+        "target_root": "project_files/Apps",
+        "folder_name": "cosmise-campaigns",
+        "profile_scoped": true,
+        "automatic_updates": true
+      },
+      "permissions": [
+        {
+          "id": "network.external",
+          "reason": "Call the read-only Cosmise Campaigns API from the trusted backend."
+        }
+      ],
+      "integrations": [
+        {
+          "id": "cosmise",
+          "required": true,
+          "reason": "Permit the trusted backend to make organisation-scoped, read-only Campaigns queries."
+        }
+      ],
+      "support": {
+        "docs_url": "https://github.com/symposium-apps/cosmise-campaigns#readme",
+        "issues_url": "https://github.com/symposium-apps/cosmise-campaigns/issues"
+      }
+    },
     {
       "id": "cosmise-streamboards",
       "name": "Cosmise Streamboards",
