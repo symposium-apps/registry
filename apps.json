@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-02T14:58:11.167Z",
+  "generated_at": "2026-08-10T03:19:19.278Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -123,6 +123,80 @@
       "support": {
         "docs_url": "https://github.com/symposium-apps/cosmise-campaigns#readme",
         "issues_url": "https://github.com/symposium-apps/cosmise-campaigns/issues"
+      }
+    },
+    {
+      "id": "cosmise-mcp",
+      "name": "Cosmise MCP",
+      "subtitle": "Your Agent’s live Cosmise command centre",
+      "description": "See and control every organisation-scoped Cosmise operation your Agent performs in realtime.",
+      "category": "automation",
+      "publisher": {
+        "name": "Samos Labs",
+        "organization": "symposium-apps"
+      },
+      "listing": {
+        "status": "published",
+        "visibility": "public",
+        "featured": false,
+        "staff_pick": false,
+        "is_new": true
+      },
+      "release": {
+        "version": "1.0.0",
+        "channel": "stable",
+        "git_ref": "main",
+        "commit": "1c326771e4b3c0e6430435eaff31ab59cd78dbee",
+        "published_at": "2026-08-10T03:19:03Z",
+        "update_policy": "automatic"
+      },
+      "source": {
+        "repository_url": "https://github.com/symposium-apps/cosmise-mcp",
+        "clone_url": "https://github.com/symposium-apps/cosmise-mcp.git",
+        "organization": "symposium-apps",
+        "default_branch": "main",
+        "manifest_path": "sym-app.json"
+      },
+      "runtime": {
+        "type": "node",
+        "start": "npm start",
+        "build": null,
+        "install": "npm ci",
+        "health_path": "/_sym/health",
+        "required_secrets": [
+          "COSMISE_MCP_TOKEN"
+        ]
+      },
+      "media": {
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-mcp/1c326771e4b3c0e6430435eaff31ab59cd78dbee/assets/icon.svg",
+        "screenshots": [],
+        "accent_color": "#4F46E5"
+      },
+      "install": {
+        "mode": "git_clone",
+        "repository_url": "https://github.com/symposium-apps/cosmise-mcp.git",
+        "ref": "main",
+        "target_root": "project_files/Apps",
+        "folder_name": "cosmise-mcp",
+        "profile_scoped": true,
+        "automatic_updates": true
+      },
+      "permissions": [
+        {
+          "id": "network.external",
+          "reason": "Dynamically discover and call the canonical organisation-scoped Cosmise MCP from the trusted backend."
+        }
+      ],
+      "integrations": [
+        {
+          "id": "cosmise",
+          "required": true,
+          "reason": "Give this trusted backend organisation-scoped read/write Cosmise MCP access while keeping the credential out of the browser."
+        }
+      ],
+      "support": {
+        "docs_url": "https://github.com/symposium-apps/cosmise-mcp#readme",
+        "issues_url": "https://github.com/symposium-apps/cosmise-mcp/issues"
       }
     },
     {
