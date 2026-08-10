@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-10T03:19:19.278Z",
+  "generated_at": "2026-08-10T12:35:17.341Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -143,11 +143,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "1c326771e4b3c0e6430435eaff31ab59cd78dbee",
-        "published_at": "2026-08-10T03:19:03Z",
+        "commit": "eefe86f4db26457efcef40a61db76daff5ee6495",
+        "published_at": "2026-08-10T12:34:59Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -168,7 +168,7 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-mcp/1c326771e4b3c0e6430435eaff31ab59cd78dbee/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/cosmise-mcp/eefe86f4db26457efcef40a61db76daff5ee6495/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#4F46E5"
       },
@@ -187,13 +187,7 @@
           "reason": "Dynamically discover and call the canonical organisation-scoped Cosmise MCP from the trusted backend."
         }
       ],
-      "integrations": [
-        {
-          "id": "cosmise",
-          "required": true,
-          "reason": "Give this trusted backend organisation-scoped read/write Cosmise MCP access while keeping the credential out of the browser."
-        }
-      ],
+      "integrations": [],
       "support": {
         "docs_url": "https://github.com/symposium-apps/cosmise-mcp#readme",
         "issues_url": "https://github.com/symposium-apps/cosmise-mcp/issues"
