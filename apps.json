@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-15T12:29:18.648Z",
+  "generated_at": "2026-08-15T17:25:08.979Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -271,7 +271,7 @@
       "id": "jukebox",
       "name": "Jukebox",
       "subtitle": "Your music library, streamed privately in each browser",
-      "description": "A shared VPS-hosted media library with accountless YouTube MP3 and MP4 imports plus private playback state in every browser.",
+      "description": "A shared VPS-hosted music and music-video library with private playback state in every browser.",
       "category": "content",
       "publisher": {
         "name": "Samos Labs",
@@ -289,7 +289,7 @@
         "channel": "stable",
         "git_ref": "main",
         "commit": "5b171d6fdc0ff80edb87663b5b3c80b971db5c8c",
-        "published_at": "2026-08-15T17:06:05Z",
+        "published_at": "2026-08-15T17:05:08Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -305,7 +305,10 @@
         "build": null,
         "install": "npm ci",
         "health_path": "/_sym/health",
-        "required_secrets": []
+        "required_secrets": [
+          "JUKEBOX_IMPORT_COMPANION_URL",
+          "JUKEBOX_IMPORT_COMPANION_TOKEN"
+        ]
       },
       "media": {
         "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/5b171d6fdc0ff80edb87663b5b3c80b971db5c8c/assets/icon.svg",
