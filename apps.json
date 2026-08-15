@@ -271,7 +271,7 @@
       "id": "jukebox",
       "name": "Jukebox",
       "subtitle": "Your music library, streamed privately in each browser",
-      "description": "A shared VPS-hosted music library with private playback state in every browser.",
+      "description": "A shared VPS-hosted media library with accountless YouTube MP3 and MP4 imports plus private playback state in every browser.",
       "category": "content",
       "publisher": {
         "name": "Samos Labs",
@@ -285,11 +285,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.2.1",
+        "version": "1.3.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "438aca7bce50f9a8bfde95fb1e801d4aed5491b2",
-        "published_at": "2026-08-15T12:23:11Z",
+        "commit": "5b171d6fdc0ff80edb87663b5b3c80b971db5c8c",
+        "published_at": "2026-08-15T17:06:05Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -308,7 +308,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/438aca7bce50f9a8bfde95fb1e801d4aed5491b2/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/5b171d6fdc0ff80edb87663b5b3c80b971db5c8c/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
@@ -321,7 +321,12 @@
         "profile_scoped": true,
         "automatic_updates": true
       },
-      "permissions": [],
+      "permissions": [
+        {
+          "id": "network.external",
+          "reason": "Inspect approved YouTube links and retrieve completed media from the profile-configured private import companion."
+        }
+      ],
       "integrations": [],
       "support": {
         "docs_url": "https://github.com/symposium-apps/jukebox#readme",
