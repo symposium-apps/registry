@@ -285,11 +285,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.3.1",
+        "version": "1.4.0",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "1defb5b4ac91475d9965c8657abe499aa145ce1f",
-        "published_at": "2026-08-16T04:08:22Z",
+        "commit": "f51e65f192f57cd0308c5e97dbd8b6bb852d8e45",
+        "published_at": "2026-08-16T06:15:07Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -311,7 +311,7 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/1defb5b4ac91475d9965c8657abe499aa145ce1f/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/f51e65f192f57cd0308c5e97dbd8b6bb852d8e45/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
