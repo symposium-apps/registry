@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-16T04:19:40.103Z",
+  "generated_at": "2026-08-16T06:25:48.904Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -289,7 +289,7 @@
         "channel": "stable",
         "git_ref": "main",
         "commit": "f51e65f192f57cd0308c5e97dbd8b6bb852d8e45",
-        "published_at": "2026-08-16T06:15:07Z",
+        "published_at": "2026-08-16T06:14:28Z",
         "update_policy": "automatic"
       },
       "source": {
