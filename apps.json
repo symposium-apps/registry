@@ -285,11 +285,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.4.12",
+        "version": "1.4.13",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "e4fda09a6cc4c1d8dc0ebbf69c394fdd9927f126",
-        "published_at": "2026-08-17T09:35:34Z",
+        "commit": "10a1a55913a6a917db743657648226423cdb078b",
+        "published_at": "2026-08-17T10:24:59Z",
         "update_policy": "automatic"
       },
       "source": {
