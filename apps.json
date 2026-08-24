@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-24T16:05:17.086Z",
+  "generated_at": "2026-08-24T16:24:26.813Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -354,11 +354,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "8e790affad0cc5152995d6a8d1459b4c1b1847cc",
-        "published_at": "2026-08-24T16:05:00Z",
+        "commit": "2523f94839b2fbee779425de773c525f2264a768",
+        "published_at": "2026-08-24T16:24:12Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -377,7 +377,7 @@
         "required_secrets": []
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/mayas-cursor/8e790affad0cc5152995d6a8d1459b4c1b1847cc/assets/icon.png",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/mayas-cursor/2523f94839b2fbee779425de773c525f2264a768/assets/icon.png",
         "screenshots": [],
         "accent_color": "#2E6BFF"
       },
