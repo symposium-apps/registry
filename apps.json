@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-22T05:14:06.421Z",
+  "generated_at": "2026-08-24T15:11:19.628Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -334,6 +334,72 @@
       "support": {
         "docs_url": "https://github.com/symposium-apps/jukebox#readme",
         "issues_url": "https://github.com/symposium-apps/jukebox/issues"
+      }
+    },
+    {
+      "id": "mayas-cursor",
+      "name": "Maya's Cursor",
+      "subtitle": "One paste. Your Agent gets a real browser.",
+      "description": "Paste MayaOS access once and give this Symposium Agent profile its own browser cursor.",
+      "category": "automation",
+      "publisher": {
+        "name": "Samos Labs",
+        "organization": "symposium-apps"
+      },
+      "listing": {
+        "status": "published",
+        "visibility": "public",
+        "featured": true,
+        "staff_pick": false,
+        "is_new": true
+      },
+      "release": {
+        "version": "1.0.0",
+        "channel": "stable",
+        "git_ref": "main",
+        "commit": "23fafd6539236cf4fd3fc7d4a19f1276eb9c5e04",
+        "published_at": "2026-08-24T15:08:52Z",
+        "update_policy": "automatic"
+      },
+      "source": {
+        "repository_url": "https://github.com/symposium-apps/mayas-cursor",
+        "clone_url": "https://github.com/symposium-apps/mayas-cursor.git",
+        "organization": "symposium-apps",
+        "default_branch": "main",
+        "manifest_path": "sym-app.json"
+      },
+      "runtime": {
+        "type": "node",
+        "start": "npm start",
+        "build": null,
+        "install": "npm ci",
+        "health_path": "/_sym/health",
+        "required_secrets": []
+      },
+      "media": {
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/mayas-cursor/23fafd6539236cf4fd3fc7d4a19f1276eb9c5e04/assets/icon.png",
+        "screenshots": [],
+        "accent_color": "#2E6BFF"
+      },
+      "install": {
+        "mode": "git_clone",
+        "repository_url": "https://github.com/symposium-apps/mayas-cursor.git",
+        "ref": "main",
+        "target_root": "project_files/Apps",
+        "folder_name": "mayas-cursor",
+        "profile_scoped": true,
+        "automatic_updates": true
+      },
+      "permissions": [
+        {
+          "id": "network.external",
+          "reason": "Validate and use the profile-configured private MayaOS node over its Tailscale URL."
+        }
+      ],
+      "integrations": [],
+      "support": {
+        "docs_url": "https://github.com/symposium-apps/mayas-cursor#readme",
+        "issues_url": "https://github.com/symposium-apps/mayas-cursor/issues"
       }
     }
   ]
