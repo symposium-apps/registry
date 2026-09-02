@@ -87,7 +87,7 @@ async function buildEntry(repo) {
     subtitle: cleanText(marketplace.subtitle, cleanText(manifest.description)),
     description: cleanText(manifest.description),
     category,
-    publisher: { name: "Samos Labs", organization },
+    publisher: { name: "Symposium", organization },
     listing: {
       status: "published",
       visibility: "public",

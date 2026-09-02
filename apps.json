@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "registry_kind": "sym_app_registry",
-  "generated_at": "2026-08-27T23:34:27.897Z",
+  "generated_at": "2026-09-02T03:13:49.385Z",
   "organization": "symposium-apps",
   "source": "https://github.com/symposium-apps",
   "update_policy": "automatic",
@@ -55,7 +55,7 @@
       "description": "A read-only campaign evidence and report workspace operated by your Symposium Agent.",
       "category": "analytics",
       "publisher": {
-        "name": "Samos Labs",
+        "name": "Symposium",
         "organization": "symposium-apps"
       },
       "listing": {
@@ -132,7 +132,7 @@
       "description": "See and control every organisation-scoped Cosmise operation your Agent performs in realtime.",
       "category": "automation",
       "publisher": {
-        "name": "Samos Labs",
+        "name": "Symposium",
         "organization": "symposium-apps"
       },
       "listing": {
@@ -200,7 +200,7 @@
       "description": "Watch an agent build, verify, and present organisation-scoped Streamboards reports.",
       "category": "analytics",
       "publisher": {
-        "name": "Samos Labs",
+        "name": "Symposium",
         "organization": "symposium-apps"
       },
       "listing": {
@@ -274,7 +274,7 @@
       "description": "A shared VPS-hosted music and music-video library with private playback state in every browser.",
       "category": "content",
       "publisher": {
-        "name": "Samos Labs",
+        "name": "Symposium",
         "organization": "symposium-apps"
       },
       "listing": {
@@ -285,11 +285,11 @@
         "is_new": true
       },
       "release": {
-        "version": "1.6.5",
+        "version": "1.6.6",
         "channel": "stable",
         "git_ref": "main",
-        "commit": "1d012fd2cf2d06e48f93697f08a71cc4a280df19",
-        "published_at": "2026-08-27T10:15:18Z",
+        "commit": "ac9a91855f1b64fbe90928a1aca458cf23f9b1ac",
+        "published_at": "2026-09-02T03:12:38Z",
         "update_policy": "automatic"
       },
       "source": {
@@ -311,7 +311,7 @@
         ]
       },
       "media": {
-        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/1d012fd2cf2d06e48f93697f08a71cc4a280df19/assets/icon.svg",
+        "icon_url": "https://raw.githubusercontent.com/symposium-apps/jukebox/ac9a91855f1b64fbe90928a1aca458cf23f9b1ac/assets/icon.svg",
         "screenshots": [],
         "accent_color": "#7c3aed"
       },
@@ -343,7 +343,7 @@
       "description": "Paste MayaOS access once and give this Symposium Agent profile its own browser cursor.",
       "category": "automation",
       "publisher": {
-        "name": "Samos Labs",
+        "name": "Symposium",
         "organization": "symposium-apps"
       },
       "listing": {

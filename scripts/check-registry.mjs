@@ -10,6 +10,7 @@ for (const app of registry.apps) {
   ids.add(app.id);
   if (!app.media?.icon_url?.startsWith("https://raw.githubusercontent.com/symposium-apps/")) throw new Error(`${app.id}: invalid icon URL`);
   if (!app.source?.repository_url?.startsWith("https://github.com/symposium-apps/")) throw new Error(`${app.id}: invalid source repository`);
+  if (app.publisher?.name !== "Symposium" || app.publisher?.organization !== "symposium-apps") throw new Error(`${app.id}: invalid publisher`);
   if (app.release?.update_policy !== "automatic" || app.install?.automatic_updates !== true) throw new Error(`${app.id}: automatic update policy missing`);
   if ("update_available" in (app.preview_state || {})) throw new Error(`${app.id}: manual update state is forbidden`);
 }
